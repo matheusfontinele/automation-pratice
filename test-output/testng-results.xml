@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="126981" started-at="2020-11-08T21:33:26 BRT" finished-at="2020-11-08T21:35:33 BRT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="126981" started-at="2020-11-08T21:33:26 BRT" finished-at="2020-11-08T21:35:33 BRT">
+      <class name="compasso.automation.CheckoutTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:compasso.automation.CheckoutTest@694e1548]" name="setUp" is-config="true" duration-ms="12393" started-at="2020-11-08T21:33:26 BRT" finished-at="2020-11-08T21:33:39 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="shouldNotContinueCheckoutWithAWrongCredentials()[pri:0, instance:compasso.automation.CheckoutTest@694e1548]" name="shouldNotContinueCheckoutWithAWrongCredentials" duration-ms="22989" started-at="2020-11-08T21:33:39 BRT" finished-at="2020-11-08T21:34:02 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotContinueCheckoutWithAWrongCredentials -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:compasso.automation.CheckoutTest@694e1548]" name="quit" is-config="true" duration-ms="987" started-at="2020-11-08T21:34:02 BRT" finished-at="2020-11-08T21:34:03 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:compasso.automation.CheckoutTest@694e1548]" name="setUp" is-config="true" duration-ms="12119" started-at="2020-11-08T21:34:03 BRT" finished-at="2020-11-08T21:34:15 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCheckout(java.lang.String, double, int)[pri:0, instance:compasso.automation.CheckoutTest@694e1548]" name="validCheckout" duration-ms="36078" started-at="2020-11-08T21:34:15 BRT" data-provider="BasicTest" finished-at="2020-11-08T21:34:51 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[16.51]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCheckout -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:compasso.automation.CheckoutTest@694e1548]" name="quit" is-config="true" duration-ms="2513" started-at="2020-11-08T21:34:51 BRT" finished-at="2020-11-08T21:34:53 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:compasso.automation.CheckoutTest@694e1548]" name="setUp" is-config="true" duration-ms="17330" started-at="2020-11-08T21:34:53 BRT" finished-at="2020-11-08T21:35:11 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validCheckout(java.lang.String, double, int)[pri:0, instance:compasso.automation.CheckoutTest@694e1548]" name="validCheckout" duration-ms="21485" started-at="2020-11-08T21:35:11 BRT" data-provider="BasicTest" finished-at="2020-11-08T21:35:32 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blouse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[27.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCheckout -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:compasso.automation.CheckoutTest@694e1548]" name="quit" is-config="true" duration-ms="1005" started-at="2020-11-08T21:35:32 BRT" finished-at="2020-11-08T21:35:33 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- compasso.automation.CheckoutTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
