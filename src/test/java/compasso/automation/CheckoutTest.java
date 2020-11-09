@@ -78,7 +78,7 @@ public class CheckoutTest {
 				.chooseQuantityAndSize(1, "S")
 				.addToCartAndCheckout()
 				.clickToProceedCheckoutSummary()
-				.login("invaliduser@invalid.com", "invaldPass");
+				.login("invaliduser@invalid.com", "invalidPass");
 		
 		assert (checkoutPage.getErrorMessageLogin().equals("Authentication failed."));
 	}
